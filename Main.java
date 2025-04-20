@@ -37,6 +37,7 @@ public class Main {
 			// 캐릭터 선택 받기
 			System.out.print("원하시는 캐릭터를 선택해 주세요 : ");
 			int choice = sc.nextInt();
+			sc.nextLine(); // enter 키를 눌러야만 게임이 시작되게
 			
 			//유저 캐릭터 선택
 			Characters user = null;
