@@ -100,7 +100,10 @@ public class Main {
 				
 				
 				//게임 종료 후 재시작 여부 확인
-				System.out.print("\n 게임이 끝났습니다. 다시 시작하시겠습니까? (Y/N)");
+//				sc.nextLine();
+				System.out.print("\n 게임이 끝났습니다. 다시 시작하시겠습니까? (y/n)");
+				System.out.print("\n 게임을 다시 시작하시겠다면 y를 입력해주세요.");
+				System.out.println("\n 게임을 종료하시겠다면 n이나 Enter키를 쳐주세요.");
 				playAgain = sc.nextLine().toUpperCase(); // Y 또는 N 입력 받기
 			
 		} while (playAgain.equals("Y"));
